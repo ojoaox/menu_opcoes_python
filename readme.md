@@ -124,8 +124,8 @@ Este projeto foi criado com o objetivo de:
 
 ## 👨‍💻 Autores
 
-João Victor
-Felipe Zimmermann
-Matheus Lopes
+* João Victor
+* Felipe Zimmermann
+* Matheus Lopes
 
 ---
