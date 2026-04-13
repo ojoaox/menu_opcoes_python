@@ -119,15 +119,6 @@ Este projeto foi criado com o objetivo de:
 * Interface com **Rich**
 * Integração com voz usando `pyttsx3`
 
----
-
-## 💡 Melhorias Futuras
-
-* Suporte para Linux/Mac (`clear` ao invés de `cls`)
-* Interface gráfica (Tkinter ou PyQt)
-* Persistência de dados (salvar lista de animes em arquivo)
-* Mais operações na calculadora
-* Configuração de voz personalizada
 
 ---
 
