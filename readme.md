@@ -122,9 +122,10 @@ Este projeto foi criado com o objetivo de:
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-Desenvolvido por você 😄
-Se quiser, posso te ajudar a transformar isso em um projeto de portfólio com GitHub bonito + deploy + badge + gif demonstrando.
+João Victor
+Felipe Zimmermann
+Matheus Lopes
 
 ---
