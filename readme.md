@@ -1,7 +1,3 @@
-Aqui vai um **README.md completo, organizado e profissional** para o seu projeto 👇
-
----
-
 # 🧠 Terminal MultiTool em Python
 
 Um programa interativo de terminal desenvolvido em Python que reúne várias funcionalidades úteis em um único menu, com interface estilizada usando **Rich** e suporte a **voz** com `pyttsx3`.
