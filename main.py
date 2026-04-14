@@ -42,8 +42,8 @@ def menu():
         "[yellow][2][/] Data / Hora\n"
         "[yellow][3][/] Lista de Animes\n"
         "[yellow][4][/] Mensagem Motivacional\n"
-        "[yellow][9][/] Limpar Tela\n"
-        "[yellow][0][/] Sair",
+        "[blue][9][/] Limpar Tela\n"
+        "[red][0][/] Sair",
     )
 
 
@@ -55,7 +55,7 @@ def calculadora():
 
         try:
             num1 = float(input("Digite o primeiro número: "))
-            op = input("Operador [+ - * /]")
+            op = input("Operador [+ - * /]; ")
             num2 = float(input("Digite o segundo número: "))
 
             if op == "+":
@@ -120,6 +120,7 @@ def data_hora():
 lista = ["Attack On Titan", "Death Note", "Naruto"]
 
 def mostrar_lista():
+    limpar()
     tabela = Table(title="Lista de Animes")
     tabela.add_column("Índice")
     tabela.add_column("Nome")
@@ -131,6 +132,7 @@ def mostrar_lista():
 
 
 def anime():
+    limpar()
     console.print(Panel("[bold yellow]LISTA DE ANIMES[/]", border_style="yellow"))
     while True:
         console.print(
@@ -144,6 +146,7 @@ def anime():
                 nome_anime = input("Nome do anime: ")
                 lista.append(nome_anime.title())
                 falar(f"{nome_anime} adicionado!")
+                limpar()
 
             case 2:
                 if not lista:
@@ -156,6 +159,8 @@ def anime():
                     indice = int(input("Índice: "))
                     removido = lista.pop(indice)
                     console.print(f"[red]{removido} removido![/]")
+                    falar(f"{removido} removido!")
+                    limpar()
                 except:
                     console.print("[red]Índice inválido![/]")
 
@@ -163,15 +168,19 @@ def anime():
                 mostrar_lista()
 
             case 4:
+                limpar()
                 console.print(f"[yellow]Total:[/] {len(lista)}")
 
             case 5:
+                limpar()
                 console.print(sorted(lista))
 
             case 6:
+                limpar()
                 break
 
             case _:
+                limpar()
                 console.print("[red]Opção inválida![/]")
 
 
