@@ -86,13 +86,13 @@ def calculadora():
 # Data e Hora
 def data():
     data_atual = datetime.date.today()
-    console.print(f"[green]📅 Data:[/] {data_atual.strftime('%d/%m/%Y')}")
+    console.print(f"[green]Data:[/] {data_atual.strftime('%d/%m/%Y')}")
     falar(f"A data atual é {data_atual.strftime('%d/%m/%Y')}")
 
 
 def hora():
     hora_atual = datetime.datetime.now()
-    console.print(f"[blue]⏰ Hora:[/] {hora_atual.strftime('%H:%M:%S')}")
+    console.print(f"[blue]Hora:[/] {hora_atual.strftime('%H:%M:%S')}")
     falar(f"A hora atual é {hora_atual.strftime('%H:%M:%S')}")
 
 
